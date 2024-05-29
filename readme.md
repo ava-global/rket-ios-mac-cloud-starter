@@ -2,7 +2,7 @@
 
 # 1) Remote Desktop
 
-1.1) No Machine [link](https://www.nomachine.com/?q=download)
+1.1) No Machine [Download Link](https://www.nomachine.com/?q=download)
 
 # 2) Setup ENV
 
@@ -25,7 +25,7 @@
 
 ### **Shell script**
 
-[https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/starter.sh](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/starter.sh)
+[Click here](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/starter.sh)
 
 ### **After finished install Bundle**
 
@@ -44,7 +44,7 @@
 
 ### 4.1) Register self host client
 
-[https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
+[How to](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
 ![new-runner-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-1.png)
 
