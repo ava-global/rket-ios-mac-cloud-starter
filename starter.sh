@@ -5,6 +5,16 @@ command_exists() {
     command -v "$1" &>/dev/null
 }
 
+# Prompt for username and password
+echo "Please enter your Apple Developer account username:"
+read -r apple_id
+echo "Please enter your Apple Developer account password:"
+read -s -r apple_password
+
+# Export credentials as environment variables
+export XCODES_USERNAME="$apple_id"
+export XCODES_PASSWORD="$apple_password"
+
 # Install Homebrew
 if command_exists brew; then
     echo "Homebrew is already installed. Updating Homebrew..."
@@ -45,7 +55,7 @@ else
     echo "Bundler is already installed."
 fi
 
-# Installing Xcodes
+# Install Xcodes
 if ! command_exists xcodes; then
     echo "Installing xcodes..."
     brew install xcodesorg/made/xcodes
@@ -116,6 +126,10 @@ brew upgrade
 # Clean up Homebrew
 echo "Cleaning up Homebrew..."
 brew cleanup
+
+# Install the latest version of Xcode
+echo "Installing the latest version of Xcode..."
+xcodes install --latest --experimental-unxip
 
 # Print instructions for GitHub Runner setup
 echo "All tools installed successfully!"
