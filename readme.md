@@ -40,3 +40,10 @@
 ![run-job-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-1.png)
 
 ![run-job-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-2.png)
+
+## Update alias command 😎
+
+Add this line in `~/.zshrc`
+```sh
+alias start-gh-runner='tmux new-session -d -s gh-runner "~/actions-runner/run.sh; zsh" && tmux attach -t gh-runner'
+```
