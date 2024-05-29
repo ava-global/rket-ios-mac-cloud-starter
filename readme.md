@@ -2,7 +2,7 @@
 
 # 1) Remote Desktop
 
-1.1) No Machine [Download Link](https://www.nomachine.com/?q=download)
+- No Machine [Download Link](https://www.nomachine.com/?q=download)
 
 # 2) Setup ENV
 
