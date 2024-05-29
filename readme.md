@@ -35,19 +35,6 @@
 ### Setup Github Runner 🦑
 - **Register self host client** [How to](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
-![new-runner-1](/Resources/new-runner-1.png)
-
-![new-runner-2](/Resources/new-runner-2.png)
-
-- **Runner ready for job**
-
-![runner-running](/Resources/runner-running.png)
-
-- **Testing**
-
-![run-job-1](/Resources/run-job-1.png)
-
-![run-job-2](/Resources/run-job-2.png)
 
 ## Setup Shortcut alias command (1st time) 😎
 
