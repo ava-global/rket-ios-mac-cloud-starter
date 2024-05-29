@@ -21,17 +21,7 @@
 - Swift Lint
 - Swift Format
 - Tmux
-    
-    ```jsx
-    brew install tmux
-    ```
-    
 - Xcode Coverage
-    
-    ```bash
-    brew install twittemb/formulae/Xcodecoverageconverter
-    ```
-    
 
 ### **Shell script**
 
@@ -56,16 +46,16 @@
 
 [https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
-![Screenshot 2567-05-29 at 13.59.57.png](Mac%20mini%20CI%20CD%20setup%20guide%206a2f1100106b4f1e91c3433f3d9bcf00/Screenshot_2567-05-29_at_13.59.57.png)
+![new-runner-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-1.png)
 
-![Screenshot 2567-05-29 at 14.00.10.png](Mac%20mini%20CI%20CD%20setup%20guide%206a2f1100106b4f1e91c3433f3d9bcf00/Screenshot_2567-05-29_at_14.00.10.png)
+![new-runner-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-2.png)
 
 ### Runner ready for job
 
-![Screenshot 2567-05-29 at 14.02.53.png](Mac%20mini%20CI%20CD%20setup%20guide%206a2f1100106b4f1e91c3433f3d9bcf00/Screenshot_2567-05-29_at_14.02.53.png)
+![runner-running](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/runner-running.png)
 
 # 5) Testing
 
-![Screenshot 2567-05-29 at 14.10.46.png](Mac%20mini%20CI%20CD%20setup%20guide%206a2f1100106b4f1e91c3433f3d9bcf00/Screenshot_2567-05-29_at_14.10.46.png)
+![run-job-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-1.png)
 
-![Screenshot 2567-05-29 at 14.10.53.png](Mac%20mini%20CI%20CD%20setup%20guide%206a2f1100106b4f1e91c3433f3d9bcf00/Screenshot_2567-05-29_at_14.10.53.png)
+![run-job-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-2.png)
