@@ -1,12 +1,21 @@
 # Mac mini CI/CD  setup guide
 
->**TLDR** ⚡️
->run this command `./starter.sh` and follow the instructions
+
 
 ## Installation Guide 📦
 
+### Prerequisite
+- **Local**
+    - No Machine: for remote desktop [Download Link](https://www.nomachine.com/?q=download)
+- **Hosted**
+    - Lasted MacOS
+
 ### Tools 🧰
-- **No Machine**: for remote desktop [Download Link](https://www.nomachine.com/?q=download)
+
+#### Automate Run
+- run this command `./starter.sh` and follow the instructions
+
+#### Manual Run
 - **Xcode**:
   - Install Xcode lasted version
   - install Xcode iOS Simulator
@@ -22,28 +31,32 @@
   - Tmux
   - Xcode Coverage
 
+
 ### Setup Github Runner 🦑
-- **Register self host client**
+- **Register self host client** [How to](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
-[How to](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
+![new-runner-1](/Resources/new-runner-1.png)
 
-![new-runner-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-1.png)
-
-![new-runner-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-2.png)
+![new-runner-2](/Resources/new-runner-2.png)
 
 - **Runner ready for job**
 
-![runner-running](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/runner-running.png)
+![runner-running](/Resources/runner-running.png)
 
 - **Testing**
 
-![run-job-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-1.png)
+![run-job-1](/Resources/run-job-1.png)
 
-![run-job-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-2.png)
+![run-job-2](/Resources/run-job-2.png)
 
-## Update alias command 😎
+## Setup Shortcut alias command (1st time) 😎
 
 Add this line in `~/.zshrc`
 ```sh
 alias start-gh-runner='tmux new-session -d -s gh-runner "~/actions-runner/run.sh; zsh" && tmux attach -t gh-runner'
+```
+## Our Commands
+To start github runner
+```sh
+start-gh-runner
 ```
