@@ -1,48 +1,29 @@
 # Mac mini CI/CD  setup guide
 
-# 1) Remote Desktop
+>**TLDR** ⚡️
+>run this command `./starter.sh` and follow the instructions
 
-- No Machine [Download Link](https://www.nomachine.com/?q=download)
+## Installation Guide 📦
 
-# 2) Setup ENV
+### Tools 🧰
+- **No Machine**: for remote desktop [Download Link](https://www.nomachine.com/?q=download)
+- **Xcode**:
+  - Install Xcode lasted version
+  - install Xcode iOS Simulator
+  - Xcode CLI command line
+- **Other tools**:
+  - Homebrew
+  - Bundler
+  - Fastlane
+  - Cocoapods
+  - Carthage
+  - Swift Lint
+  - Swift Format
+  - Tmux
+  - Xcode Coverage
 
-- Install Xcode lasted version
-- install Xcode iOS Simulator
-- MacOS lasted version
-- Xcode CLI command line
-
-# 3) Install Bundle
-
-- Homebrew
-- Bundler
-- Fastlane
-- Cocoapods
-- Carthage
-- Swift Lint
-- Swift Format
-- Tmux
-- Xcode Coverage
-
-### **Shell script**
-
-[Click here](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/starter.sh)
-
-### **After finished install Bundle**
-
-```jsx
-
-==> Next steps:
-- Run these two commands in your terminal to add Homebrew to your PATH:
-    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/avantis/.zprofile
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-- Run brew help to get started
-- Further documentation:
-    https://docs.brew.sh
-```
-
-# 4) Setup Github Runner
-
-### 4.1) Register self host client
+### Setup Github Runner 🦑
+- **Register self host client**
 
 [How to](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners)
 
@@ -50,11 +31,11 @@
 
 ![new-runner-2](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/new-runner-2.png)
 
-### Runner ready for job
+- **Runner ready for job**
 
 ![runner-running](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/runner-running.png)
 
-# 5) Testing
+- **Testing**
 
 ![run-job-1](https://github.com/ava-global/rket-ios-mac-cloud-starter/blob/main/Resources/run-job-1.png)
 
